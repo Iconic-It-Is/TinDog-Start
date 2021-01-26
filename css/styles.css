@@ -1,0 +1,177 @@
+/* head */
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bolder;
+}
+
+/* body */
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+/* paragraph */
+p {
+  color: #8f8f8f;
+  text-align: center;
+}
+
+/* section */
+.colored-section {
+  color: #fff;
+  background-color: #ff4c68;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* title */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* features */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* cta */
+#cta {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.cta-head {
+  padding: 5% 17% 0;
+  font-size: 3.5rem;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  padding: 200px 0;
+}
+
+.Copyright {
+  margin: auto;
+  padding: 30px 0;
+}
+
+/* button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* image */
+.press-image {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+.iphone-img {
+  width: 60%;
+  right: 30%;
+  position: absolute;
+  transform: rotate(25deg);
+}
+
+/* icons */
+.color-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.color-icon:hover {
+  color: #ff4c68;
+}
+
+/* .card-deck {
+  text-align: center;
+} */
+/* z index and positioning */
+.icon-bottom {
+  padding: 0 25px 20px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* try to allign as many text you can align in a single line */
